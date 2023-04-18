@@ -117,7 +117,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 5,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -125,6 +125,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{post_shipment.run(() => showAlert('Shipment created successfully, refresh the page to see it.','success'), () => showAlert('Error. Please specify a carrier.','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -137,7 +138,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 12,
                       "dynamicBindingPathList": [
                         {
@@ -162,10 +167,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 35,
+                      "originalTopRow": 31,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 40,
+                      "originalBottomRow": 36,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -221,16 +226,16 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 10,
+                      "originalTopRow": 6,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
+                      "originalBottomRow": 10,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "TreeSelect1",
+                      "widgetName": "InputCarrierID",
                       "displayName": "TreeSelect",
                       "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
                       "labelText": "Select a carrier:",
@@ -243,7 +248,7 @@
                       "labelWidth": 5,
                       "type": "SINGLE_SELECT_TREE_WIDGET",
                       "hideCard": false,
-                      "defaultOptionValue": "BLUE",
+                      "defaultOptionValue": "{{get_carrier_IDs.data[0]}}",
                       "animateLoading": true,
                       "parentColumnSpace": 3.8623046875,
                       "dynamicTriggerPathList": [],
@@ -257,6 +262,9 @@
                         },
                         {
                           "key": "options"
+                        },
+                        {
+                          "key": "defaultOptionValue"
                         }
                       ],
                       "labelPosition": "Top",
@@ -280,10 +288,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 14,
+                      "originalTopRow": 10,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 21,
+                      "originalBottomRow": 17,
                       "allowClear": false,
                       "minDynamicHeight": 4
                     }
@@ -615,8 +623,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 50,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 54,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
