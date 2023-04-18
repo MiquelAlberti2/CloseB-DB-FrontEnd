@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Brand Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Marketplace admin Dashboard",
+      "isDefault": false
     }
   ],
   "viewMode": false,
