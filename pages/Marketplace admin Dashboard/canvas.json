@@ -125,7 +125,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{post_shipment.run(() => showAlert('Shipment created successfully, refresh the page to see it.','success'), () => showAlert('Error. Please specify a carrier.','error'))}}",
+                      "onClick": "{{post_shipment.run(() => showAlert('Shipment created successfully, refresh the page to see it.','success'), () => showAlert('Error. Please select a carrier.','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
