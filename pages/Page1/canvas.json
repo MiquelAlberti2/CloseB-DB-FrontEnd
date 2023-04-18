@@ -35,8 +35,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 22,
-              "bottomRow": 26,
+              "topRow": 3,
+              "bottomRow": 7,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -45,7 +45,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 23,
+              "leftColumn": 18,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -62,7 +62,7 @@
               "text": "Welcome to CloseB",
               "key": "6ra7u3kjga",
               "isDeprecated": false,
-              "rightColumn": 39,
+              "rightColumn": 34,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "7ovljjf9c8",
