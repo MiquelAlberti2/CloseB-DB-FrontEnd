@@ -1,6 +1,7 @@
 {{
 {
-	CarrierID: OrdersTable.selectedRow.OrderID,
-	OrderID: InputCarrierID.selectedOptionValue
+	CarrierID: InputCarrierID.selectedOptionValue,
+	OrderID: OrdersTable.selectedRow.OrderID,
+	ShippingCost: PriceLabel.text
 }
 }}
