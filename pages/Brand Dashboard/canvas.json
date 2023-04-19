@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -115,7 +115,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 41,
+              "bottomRow": 46,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,

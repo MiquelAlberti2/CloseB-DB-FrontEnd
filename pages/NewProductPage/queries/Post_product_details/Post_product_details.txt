@@ -1,0 +1,9 @@
+{{
+{
+  "Name": Name.text,
+  "Description": Description.text,
+		"Price": Price.text,
+  "Category_Title": Category_Title.selectedOptionValue,
+	"BrandID": 1
+}
+}}

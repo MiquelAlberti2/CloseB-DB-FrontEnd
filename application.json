@@ -7,6 +7,10 @@
     {
       "id": "Marketplace admin Dashboard",
       "isDefault": false
+    },
+    {
+      "id": "NewProductPage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -14,6 +18,9 @@
   "unreadCommentThreads": 0,
   "color": "#F4FFDE",
   "icon": "love",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
