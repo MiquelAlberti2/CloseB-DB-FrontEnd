@@ -640,7 +640,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "${{get_amount_spent.data[0].sum}}",
+                      "text": "{{get_amount_spent.data[0].sum}}",
                       "key": "epmusefc8l",
                       "isDeprecated": false,
                       "rightColumn": 64,
@@ -720,8 +720,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "isReturnInput.isChecked",
-                "CustomerIDInput.text"
+                "CustomerIDInput.text",
+                "isReturnInput.isChecked"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -731,8 +731,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "isReturnInput.isChecked",
-                "CustomerIDInput.text"
+                "CustomerIDInput.text",
+                "isReturnInput.isChecked"
               ],
               "timeoutInMillisecond": 10000
             }
