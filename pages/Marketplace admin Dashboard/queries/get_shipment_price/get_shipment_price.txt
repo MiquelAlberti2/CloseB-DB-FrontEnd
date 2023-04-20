@@ -1,0 +1,6 @@
+{{
+{
+	CarrierID: InputCarrierID.selectedOptionValue,
+	CustomerID: OrdersTable.selectedRow.CustomerID
+}
+}}
