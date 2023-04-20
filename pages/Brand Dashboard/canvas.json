@@ -50,9 +50,6 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.BrandID.computedValue"
-                },
-                {
                   "key": "primaryColumns.Description.computedValue"
                 },
                 {
@@ -63,6 +60,9 @@
                 },
                 {
                   "key": "primaryColumns.ProductID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Category_Title.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -100,7 +100,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681698584435,
+              "columnUpdatedAt": 1682030891984,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -111,7 +111,7 @@
                 "Name",
                 "Description",
                 "Price",
-                "BrandID"
+                "Category_Title"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -129,32 +129,6 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "BrandID": {
-                  "allowCellWrapping": false,
-                  "index": 0,
-                  "width": 150,
-                  "originalId": "BrandID",
-                  "id": "BrandID",
-                  "alias": "BrandID",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "BrandID",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{ProductsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"BrandID\"]))}}",
-                  "sticky": "",
-                  "validation": {}
-                },
                 "Description": {
                   "allowCellWrapping": false,
                   "index": 1,
@@ -258,6 +232,35 @@
                   "computedValue": "{{ProductsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ProductID\"]))}}",
                   "sticky": "",
                   "validation": {}
+                },
+                "Category_Title": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "Category_Title",
+                  "id": "Category_Title",
+                  "alias": "Category_Title",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Category_Title",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{ProductsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Category_Title\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
                 }
               },
               "key": "ciyid3knlg",
