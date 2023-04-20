@@ -11,6 +11,10 @@
     {
       "id": "NewProductPage",
       "isDefault": false
+    },
+    {
+      "id": "Marketplace admin CustomerDash",
+      "isDefault": false
     }
   ],
   "viewMode": false,
