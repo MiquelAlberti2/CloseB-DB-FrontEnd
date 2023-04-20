@@ -674,7 +674,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 41,
+              "bottomRow": 46,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
