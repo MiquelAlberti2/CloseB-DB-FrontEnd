@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_customers",
+    "name": "get_no_customer_orders",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/o/customers"
+        "url": "web:4000/o/orders/{{CustomerIDInput.text}}/{{isReturnInput.isChecked}}"
       },
       "invalids": [],
       "messages": [],
@@ -37,17 +37,24 @@
       }
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "datasourceUrl"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "CustomerIDInput.text",
+      "isReturnInput.isChecked"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Marketplace admin CustomerDash_get_customers",
+  "id": "Marketplace admin CustomerDash_get_no_customer_orders",
   "deleted": false,
-  "gitSyncId": "64402869347c4c6cf7ee3ff8_64409025347c4c6cf7ee400c"
+  "gitSyncId": "64402869347c4c6cf7ee3ff8_6441a461347c4c6cf7ee4022"
 }
