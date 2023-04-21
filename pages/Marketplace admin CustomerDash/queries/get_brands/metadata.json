@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_amount_spent",
+    "name": "get_brands",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/o/orders/amountSpent/{{CustomerIDInput.text}}/{{isReturnInput.isChecked}}"
+        "url": "web:4000/o/brands"
       },
       "invalids": [],
       "messages": [],
@@ -37,24 +37,17 @@
       }
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [
-      {
-        "key": "datasourceUrl"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "CustomerIDInput.text",
-      "isReturnInput.isChecked"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Marketplace admin CustomerDash_get_amount_spent",
+  "id": "Marketplace admin CustomerDash_get_brands",
   "deleted": false,
-  "gitSyncId": "64402869347c4c6cf7ee3ff8_6441a4b3347c4c6cf7ee4024"
+  "gitSyncId": "6441b2e5347c4c6cf7ee4032_6441ccaca2e15a268f1a0929"
 }

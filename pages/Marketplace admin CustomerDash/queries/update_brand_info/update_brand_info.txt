@@ -1,0 +1,11 @@
+{{
+{
+	"Name": Name.text,
+	"Email": Email.text,
+	"City": City.text,
+	"ZIP": ZIP.text,
+	"State": State.text,
+	"Street": Street.text
+}
+
+}}
