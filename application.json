@@ -9,6 +9,10 @@
       "isDefault": false
     },
     {
+      "id": "NewProductPage",
+      "isDefault": false
+    },
+    {
       "id": "Marketplace admin CustomerDash",
       "isDefault": false
     }
@@ -18,6 +22,12 @@
   "unreadCommentThreads": 0,
   "color": "#F4FFDE",
   "icon": "love",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

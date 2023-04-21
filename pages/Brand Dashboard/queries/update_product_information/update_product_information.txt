@@ -1,0 +1,8 @@
+{{
+{
+	"Name" : formName.text,
+	"Description": formDescription.text,
+	"CategoryTitle": formCategoryTitle.selectedOptionValue,
+	"Price": formPrice.value
+}
+}}

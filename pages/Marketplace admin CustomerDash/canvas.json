@@ -1934,8 +1934,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "isReturnInput.isChecked",
-                "CustomerIDInput.text"
+                "CustomerIDInput.text",
+                "isReturnInput.isChecked"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -1945,8 +1945,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "isReturnInput.isChecked",
-                "CustomerIDInput.text"
+                "CustomerIDInput.text",
+                "isReturnInput.isChecked"
               ],
               "timeoutInMillisecond": 10000
             }
